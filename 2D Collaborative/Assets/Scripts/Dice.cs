@@ -5,7 +5,7 @@ using UnityEngine;
 public class Dice : MonoBehaviour {
 
     // Array of dice sides sprites to load from Resources folder
-    private Sprite[] diceSides;
+    public Sprite[] diceSides;
 
     // Reference to sprite renderer to change sprites
     private SpriteRenderer rend;
@@ -19,7 +19,7 @@ public class Dice : MonoBehaviour {
         rend = GetComponent<SpriteRenderer>();
 
         // Load dice sides sprites to array from DiceSides subfolder of Resources folder
-        diceSides = Resources.LoadAll<Sprite>("DiceSides/");
+        //diceSides = Resources.LoadAll<Sprite>("DiceSides/");
 	}
 	
     // If you left click over the dice then RollTheDice coroutine is started
@@ -43,7 +43,8 @@ public class Dice : MonoBehaviour {
         for (int i = 0; i <= 20; i++)
         {
             // Pick up random value from 0 to 5 (All inclusive)
-            randomDiceSide = Random.Range(0, 5);
+            randomDiceSide = Random.Range(0, diceSides.Length);
+            //randomDiceSide = Random.Range(0, diceSides);
 
             // Set sprite to upper face of dice from array according to random value
             rend.sprite = diceSides[randomDiceSide];

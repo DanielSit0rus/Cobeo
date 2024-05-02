@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ChangeScene.unity
+    guid: 918b094ade586cb49aa9e9e3b9bf2756
+  - enabled: 1
+    path: Assets/Scenes/ArrangeToken.unity
+    guid: 07686a4ed130c2049872313a385f34fe
+  - enabled: 1
+    path: Assets/Scenes/DiceAndspin(Change).unity
+    guid: 12f1076c3eee51a44abd57b522374775
+  - enabled: 1
+    path: Assets/Scenes/DiceAndSpin(Dynamics).unity
+    guid: 56bad2fe0aeab8f42afc0439f4d533f9
+  - enabled: 1
+    path: Assets/Scenes/DiceAndSpin(Foundations).unity
+    guid: 5ae6f1c8bb10a184e9f9c8321c046255
+  - enabled: 1
+    path: Assets/Scenes/DiceAndSpin(Risk).unity
+    guid: e3215ca5b8ddb1949bc80c1298df1f89
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 3c1d1ec966b6e9a4da053270b5d3ac97
   m_configObjects: {}
