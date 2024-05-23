@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.EventSystems;  // Make sure to include this for event handling
 
 public class UiOnHoverEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -18,8 +16,6 @@ public class UiOnHoverEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         // Check if the right mouse button was clicked
         if (eventData.button == PointerEventData.InputButton.Right)
         {
-
-
             transform.localScale = new Vector3(4, 4, 4); // Enlarge the object
             isRightClicked = true; // Set the flag
         }

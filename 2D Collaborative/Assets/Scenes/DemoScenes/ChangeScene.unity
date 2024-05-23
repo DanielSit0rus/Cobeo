@@ -809,6 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e8e5c3838d6694e8e49c0046f7c3e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diceSides: []
   resultText: {fileID: 124009094}
 --- !u!212 &243728431
 SpriteRenderer:
